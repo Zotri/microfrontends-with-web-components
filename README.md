@@ -20,4 +20,4 @@ cd team-view/react-frontend && npm run build && cd .. && cd .. && npm run micro-
 you need to import this path in vscode or another IDE by your choice, then start the spring-boot backend from there. The same steps for vue-backend
 
 ## Database
-on the directory root a dumb db file needed to be run with MySQL Workbench  
+on the directory root a dumb db sql "db-dump-mf-otri.sql" file needed to be imported with MySQL Workbench  
