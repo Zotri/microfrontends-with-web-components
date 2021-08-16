@@ -1,0 +1,26 @@
+<header>
+    <nav class="nav navbar-expand-sm bg-primary navbar-dark">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a routerLink="employees" routerLinkActive="active" class="nav-link">Employee List</a>
+                <a href="http://localhost:8089/" class="nav-link">Add new Employee</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<div class="count">
+    <span>Number of marked Employees</span>
+    <count-marks id="counter-marks-span-mark" name="mark"></count-marks>
+</div>
+
+<div class="container">
+    <router-outlet></router-outlet>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <span>Team A Micro Frontend - All rights reserved 2021</span>
+    </div>
+
+</footer>

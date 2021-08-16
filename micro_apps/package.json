@@ -1,0 +1,18 @@
+{
+    "name": "micro-apps",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "micro-apps": "concurrently --names \"view \" \"mfserve --listen 3003 team-view/react-frontend\" \"wait-on http://localhost:4200\"",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "motri",
+    "license": "ISC",
+    "dependencies": {
+        "@microfrontends/serve": "^11.3.0",
+        "concurrently": "^6.0.2",
+        "opener": "^1.5.2",
+        "wait-on": "^5.3.0"
+    }
+}

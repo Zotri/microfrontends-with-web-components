@@ -1,0 +1,52 @@
+/* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 15px;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.footer {
+    background-color: rgb(54, 54, 211);
+    color: white;
+    font-size: small;
+    margin: 5px;
+    padding: 15px 5px 15px;
+    text-align: center;
+}
+
+html {
+    outline: 3px solid #bc3630;
+    outline-offset: -10px;
+    position: relative;
+    height: auto;
+}
+
+html::after {
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    content: "Team A";
+    background-color: #bc3630;
+    display: block;
+    color: white;
+    position: absolute;
+    padding: 2px 5px;
+    bottom: 10px;
+    left: 7px;
+}
+
+count-marks {
+    color: #bc3630;
+    text-shadow: azure;
+    padding: 20px;
+    padding-left: 15px;
+}
+
+.count {
+    background-color: cornflowerblue;
+    padding: 10px;
+}

@@ -1,0 +1,73 @@
+view-button-react button {
+    padding: 10px;
+    border: none;
+    color: white;
+    border-radius: 0.25em;
+    background: rgb(75, 158, 204);
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: transform 0.1s ease-in-out;
+    outline: 2px solid #2276f4;
+    outline-offset: -4px;
+    position: relative;
+    height: auto;
+    width: auto;
+}
+
+view-button-react button:hover {
+    background: rgba(122, 210, 169, 0.8);
+}
+
+view-button-react button:active {
+    background: gray;
+    transform: scale(0.98);
+}
+
+h5 {
+    font-size: 10px;
+}
+
+table {
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    font-size: 12px;
+    block-size: auto;
+    border: 1 1 1 1;
+}
+
+view-button-react::after {
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    content: "Team C";
+    background-color: #2276f4;
+    display: block;
+    color: white;
+    position: relative;
+    height: auto;
+    width: auto;
+    bottom: 10px;
+    left: 2px;
+    font-size: 8px;
+}
+
+react-mark-element {
+    outline: 2px solid #2276f4;
+    outline-offset: -4px;
+    position: relative;
+    height: 10%;
+    width: 10%;
+}
+
+react-mark-element::after {
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    content: "Team C";
+    background-color: #2276f4;
+    display: block;
+    color: white;
+    position: relative;
+    height: auto;
+    width: auto;
+    padding: 2% 2%;
+    top: 1px;
+    bottom: -10px;
+    left: 2px;
+    font-size: 8px;
+}
