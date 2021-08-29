@@ -4,16 +4,24 @@
 ## Frontend
 
 ### To start first fragment from Team A
-/micro_apps/team-list/angular-frontend:
-$ ng serve
+
+```console
+user@workstation:~$ cd micro_apps/team-list/angular-frontend
+ng serve
+```
 
 ### To start 2end fragment from Team B
-/micro_apps/team-create/vue-frontend:
-$ npm run serve
+
+```console
+user@workstation:~$ cd micro_apps/team-create/vue-frontend
+npm run serve
+```
 
 ### To start 3rd fragment from Team C (Web Components)
-$ cd team-view/react-frontend && npm run build && cd .. && cd .. && npm run micro-apps
 
+```console
+user@workstation:~$ cd team-view/react-frontend && npm run build && cd .. && cd .. && npm run micro-apps
+```
 
 ## Backend
 
